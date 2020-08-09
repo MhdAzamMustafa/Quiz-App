@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>QUIZ APPLICATION</h1>
+    <div class="main">
+        <fieldset>
+        <div class="htm">
+            <fieldset>
+                <legend>About HTML</legend>
+                <br>
+                <div>
+                    <div>
+                        <fieldset>
+                            <p>1. HTML stands for.</p>
+                            <input name="html1" type="radio" id="ht1_q1_a" value="Hyper text makeup language" onclick="htm1()" >Hyper text makeup language</input><br>
+                            <input name="html1" type="radio" id="ht1_q1_b" value="Hyper test madeup language" onclick="htm1()">Hyper test madeup language</input><br>
+                            <input name="html1" type="radio" id="ht1_q1_c" value="Hyper test makedup language" onclick="htm1()">Hyper test makedup language</input><br>
+                            <!-- <fieldset>
+                                <legend>Result</legend> -->
+                            <p id="ht1ans"></p>
+                        <!-- </fieldset> -->
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div>
+                        <fieldset>
+                            <p>2. HTML is a ______________ language.</p>
+                            <input name="html2" type="radio" value="Programming" id="ht2_q2_a" onclick="htm2()">Programming</input><br>
+                            <input name="html2" type="radio" value="makeup" id="ht2_q2_b" onclick="htm2()">Make Up</input><br>
+                            <input name="html2" type="radio" value="Binary" id="ht2_q2_c" onclick="htm2()">Binary</input><br>
+                            <p id="ht2ans"></p>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div>
+                        <fieldset>
+                            <p>3. HTML was invented by ______________.</p>
+                            <input name="html3" type="radio" value="Tim Berners-Lee" id="ht3_q3_a" onclick="htm3()">Tim Berners-Lee</input><br>
+                            <input name="html3" type="radio" value="Håkon Wium Lie" id="ht3_q3_b" onclick="htm3()">Håkon Wium Lie</input><br>
+                            <input name="html3" type="radio" value="Brendan Eich" id="ht3_q3_c" onclick="htm3()">Brendan Eich</input><br>
+                            <p id="ht3ans"></p>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div>
+                        <fieldset>
+                            <p>4. HTML was invented in which year ______________.</p>
+                            <input name="html4" type="radio" value="1890" id="ht4_q4_a" onclick="htm4()">1890</input><br>
+                            <input name="html4" type="radio" value="1989" id="ht4_q4_b" onclick="htm4()">1989</input><br>
+                            <input name="html4" type="radio" value="1990" id="ht4_q4_c" onclick="htm4()">1990</input><br>
+                            <p id="ht4ans"></p>
+                        </fieldset>
+                        <p id="htmlfinal"></p>
+                    </div>
+                </div>
+                <br>
+            </fieldset>
+        </div>
+        <br>
+
+        <div class="css">
+            <fieldset>
+                <legend>About CSS</legend>
+                <br>
+                <div>
+                    <div>
+                        <fieldset>
+                            <p>1. CSS stands for.</p>
+                            <input name="css1" type="radio" value="Center Style sheet" id="css1_q1_a" onclick="css1()" >Center Style sheet</input><br>
+                            <input name="css1" type="radio" value="Central Superior Services" id="css1_q1_b" onclick="css1()">Central Superior Services</input><br>
+                            <input name="css1" type="radio" value="Central Style Service" id="css1_q1_c" onclick="css1()">Central Style Service</input><br>
+                            <p id="css1ans"></p>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div>
+                        <fieldset>
+                            <p>2. CSS is a ______________ language.</p>
+                            <input name="css2" type="radio" value="Programming" id="css2_q2_a" onclick="css2()">Programming</input><br>
+                            <input name="css2" type="radio" value="makeup" id="css2_q2_b" onclick="css2()">Make Up</input><br>
+                            <input name="css2" type="radio" value="Style Sheet Language" id="css2_q2_c" onclick="css2()">Style Sheet Language</input><br>
+                            <p id="css2ans"></p>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div>
+                        <fieldset>
+                            <p>3. CSS was invented by ______________.</p>
+                            <input name="css3" type="radio" value="Tim Berners-Lee" id="css3_q3_a" onclick="css3()">Tim Berners-Lee</input><br>
+                            <input name="css3" type="radio" value="Håkon Wium Lie" id="css3_q3_b" onclick="css3()">Håkon Wium Lie</input><br>
+                            <input name="css3" type="radio" value="Brendan Eich" id="css3_q3_c" onclick="css3()">Brendan Eich</input><br>
+                            <p id="css3ans"></p>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div>
+                        <fieldset>
+                            <p>4. CSS was invented in which year ______________.</p>
+                            <input name="css4" type="radio" value="1999" id="css4_q4_a" onclick="css4()">1999</input><br>
+                            <input name="css4" type="radio" value="1996" id="css4_q4_b" onclick="css4()">1996</input><br>
+                            <input name="css4" type="radio" value="1990" id="css4_q4_c" onclick="css4()">1990</input><br>
+                            <p id="css4ans"></p>
+                        </fieldset>
+                    </div>
+                </div>
+                <br>
+            </fieldset>
+        </div>
+        <br>
+
+        <div class="JS">
+            <fieldset>
+                <legend>About JAVASCRIPT</legend>
+                <br>
+                <div>
+                    <div>
+                        <fieldset>
+                            <p>1. JS stands for</p>
+                            <input name="js1" type="radio" value="Javascript" id="js1_q1_a" onclick="js1()">Javascript</input><br>
+                            <input name="js1" type="radio" value="Javasharp" id="js1_q1_b" onclick="js1()">Javasharp</input><br>
+                            <input name="js1" type="radio" value="Javasplit" id="js1_q1_c" onclick="js1()">Javasplit</input><br>
+                            <p id="js1ans"></p>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div>
+                        <fieldset>
+                            <p>2. Javascript is a ______________ language.</p>
+                            <input name="js2" type="radio" value="Programming" id="js2_q2_a" onclick="js2()">Programming</input><br>
+                            <input name="js2" type="radio" value="makeup" id="js2_q2_b" onclick="js()">Make Up</input><br>
+                            <input name="js2" type="radio" value="Assembly" id="js2_q2_c" onclick="js2()">Assembly</input><br>
+                            <p id="js2ans"></p>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div>
+                        <fieldset>
+                            <p>3. JS was invented by ______________.</p>
+                            <input name="js3" type="radio" value="Tim Berners-Lee" id="js3_q3_a" onclick="js3()">Tim Berners-Lee</input><br>
+                            <input name="js3" type="radio" value="Håkon Wium Lie" id="js3_q3_b" onclick="js3()">Håkon Wium Lie</input><br>
+                            <input name="js3" type="radio" value="Brendan Eich" id="js3_q3_c" onclick="js3()">Brendan Eich</input><br>
+                            <p id="js3ans"></p>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div>
+                        <fieldset>
+                            <p>4. JS was invented in which year ______________.</p>
+                            <input name="js4" type="radio" value="1999" id="js4_q4_a" onclick="js4()">1995</input><br>
+                            <input name="js4" type="radio" value="1996" id="js4_q4_b" onclick="js4()">1996</input><br>
+                            <input name="js4" type="radio" value="1990" id="js4_q4_c" onclick="js4()">1990</input><br>
+                            <p id="js4ans"></p>
+                        </fieldset>
+                    </div>
+                </div>
+                <br>
+                <h2 id="score"></h2>
+            </fieldset>
+        </div>
+        <br>
+    </fieldset>
+
+    </div>
+
+    <!-- <button >result</button> -->
+
+</body>
+<script src="app.js"></script>
+
+</html>

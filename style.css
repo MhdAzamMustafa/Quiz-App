@@ -1,0 +1,46 @@
+body{
+    background-color: #000;
+    color: rgb(138, 176, 206)
+}
+h1{
+    text-shadow: 2px -3px slategray ,2px 2px red;
+    text-align: center;
+    color: #ffffff
+}
+.htm >fieldset {
+    border-radius: 0px 40px 0px 40px;
+    border: 2px solid salmon ;
+}
+.htm legend{
+    color: salmon;
+}
+.css >fieldset{
+    border-radius: 40px 0px 40px 0px;
+    border: 2px solid seagreen ;
+}
+.css legend{
+    color: seagreen;
+}
+.JS >fieldset{
+    border-radius: 0px 40px 0px 40px;
+    border: 2px solid burlywood ;
+}
+.JS legend{
+    color: burlywood;
+}
+
+legend{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+fieldset{
+    border-radius: 40px 0px 40px 0px;
+    border: 2px solid steelblue ;
+    margin-top: 5px ;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
